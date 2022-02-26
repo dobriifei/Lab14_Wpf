@@ -29,7 +29,7 @@ namespace Lab14_Wpf
             products.Add(new Product()
             {
                 ProductName = "Батон белый",
-                ProductImage = 1,
+                ProductImage = "Data/1.jpg",
                 ProductPrice = 50,
                 ProductCategory = ProductCategorys.Food,
             });
@@ -37,14 +37,14 @@ namespace Lab14_Wpf
             products.Add(new Product()
             {
                 ProductName = "Будильник",
-                ProductImage = 2,
+                ProductImage = "Data/2.jpg",
                 ProductPrice = 250,
                 ProductCategory = ProductCategorys.Appliances,
             });
             products.Add(new Product()
             {
                 ProductName = "Мармелад",
-                ProductImage = 3,
+                ProductImage = "Data/3.jpg",
                 ProductPrice = 150,
                 ProductCategory = ProductCategorys.Food,
             });

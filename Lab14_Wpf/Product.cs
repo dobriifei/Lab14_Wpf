@@ -16,7 +16,7 @@ namespace Lab14_Wpf
     {
         public string ProductName { get; set; }
         public int ProductPrice { get; set; }
-        public int ProductImage { get; set; }
+        public string ProductImage { get; set; }
         public ProductCategorys ProductCategory { get; set; }
 
         public override string ToString()
